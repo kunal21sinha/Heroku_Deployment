@@ -5,4 +5,4 @@ app=Flask(__name__)
 def version():
     return {'version':'0.001'}
 if __name__=='__main__':
-    app.run()
+    app.run(port=443)
